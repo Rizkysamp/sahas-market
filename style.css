@@ -107,3 +107,9 @@ footer {
     }
 
     .btn-link:hover { transform: scale(1.08); }
+
+.product-grid {
+  display: flex; /* Gunakan flexbox untuk tata letak vertikal */
+  flex-direction: column; /* Mengatur arah flex menjadi kolom */
+  gap: 20px; /* Jarak antar produk */
+}
