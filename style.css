@@ -1,0 +1,109 @@
+body {
+  font-family: 'Arial'; /* Menggunakan font Arial */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Warna latar belakang abu-abu muda */
+}
+
+.container {
+  background-color: #f0f0f0; /* Warna latar belakang abu-abu muda */
+  padding: 1px;
+  border-radius: 20px; /* Sudut membulat */
+  margin: 20px;
+  text-align: center; /* Teks di tengah */
+}
+
+.container p {
+  font-size: 24px; /* Ukuran font lebih besar */
+  font-weight: bold; /* Teks tebal */
+  color: #333; /* Warna teks abu-abu gelap */
+}
+
+}
+.background {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-radius: 15px;
+  
+  
+}
+
+header {
+  background: #2D4379;
+background: linear-gradient(90deg, rgba(45, 67, 121, 1) 0%, rgba(45, 67, 135, 1) 100%);/* Warna header abu-abu gelap */
+  color: #fff; /* Warna teks putih */
+  padding: 20px 0;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.featured-products {
+  padding: 40px 0;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsif */
+  grid-gap: 20px;
+}
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+  border-radius: 20px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #000; /* Warna harga merah */
+}
+
+button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+background: #2a5da3;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+ .btn-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      gap: 12px;
+    }
+
+    .btn-link {
+      padding: 10px 20px;
+  border-radius: 5px;
+      background-size: 200% 200%;
+      animation: gradientBtn 4s ease infinite;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-link:hover { transform: scale(1.08); }
